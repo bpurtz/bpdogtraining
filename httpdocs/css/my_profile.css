@@ -1,0 +1,59 @@
+#profile_photo {
+    max-height: 200px;
+    width: auto;
+}
+
+#photo_div {
+    border: 2px solid red;
+    padding: 0px;
+    align-items: flex-end;
+    min-height: 200px;
+}
+
+#photo_album {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px;
+    border: 1px outset black;
+    height: 50%;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+#photo_album img {
+    max-height: 100%;
+    max-width: 85px;
+    min-width: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#profile-row {
+    border: 2px solid red;
+}
+
+.photo {
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.modal-dialog {
+    overflow-y: initial !important;
+}
+
+.modal-body {
+    height: 250px;
+    overflow-y: auto;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+

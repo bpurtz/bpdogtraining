@@ -1,0 +1,43 @@
+.friend img {
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+
+.friend img:hover {
+    cursor: pointer;
+}
+
+.friend button {
+    display: block;
+    margin: auto;
+}
+
+.friend {
+    border: 1px groove black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.friends {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.friend .friend_post {
+    margin-left: 30px;
+}
+
+.received-requests {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.sent-requests {
+    height: 700px;
+    overflow-y: scroll;
+}

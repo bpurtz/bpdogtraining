@@ -1,0 +1,92 @@
+.main-container {
+    height: 100%;
+}
+
+.messages {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.friends {
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chats {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.chat {
+    border: 1px groove rgba(35, 64, 153, 0.6);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.chat img {
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+
+.chat img:hover {
+    cursor: pointer;
+}
+
+.chat-buttons button {
+    display: block;
+    margin: auto;
+}
+
+.modal textarea {
+    display: block;
+    margin: auto;
+}
+
+.modal input[type=submit] {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.prev_messages {
+    max-width: 100%;
+    max-height: 400px;
+    min-height: 100px;
+    overflow-x: hidden;
+}
+
+
+.owned_message {
+    display: block;
+    border-radius: 10px;
+    color: white;
+    background-color: #559cff;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    min-width: 200px;
+    width: 50%;
+}
+
+.normal_message {
+    display: block;
+    border-radius: 10px;
+    background-color: #74ff65;
+    color: white;
+    float: left;
+    min-width: 200px;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.message-date {
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,113 @@
+div.cmd_problem{
+    clear: both;
+    border: 1px solid black;
+    background: #e2fff2;
+}
+
+div.problem{
+    clear: both;
+    border: 1px solid black;
+    background: #e2fff2;
+}
+
+
+div.cmd_problem div.row{
+    border-bottom: 1px solid black;
+}
+
+div.problem div.row{
+    border-bottom: 1px solid black;
+}
+div.cmd_problem div.row:last-of-type{
+    border-bottom: 0px solid black;
+}
+
+div.problem div.row:last-of-type{
+    border-bottom: 0px solid black;
+}
+
+div.cmd_problem img {
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+
+div.problem img {
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+
+div.cmd_problem img:hover {
+    cursor: pointer;
+}
+
+div.problem img:hover {
+    cursor: pointer;
+}
+
+div.problem button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.cmd_problem button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.prev_comments {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.comment:first-of-type {
+    padding-top: 15px;
+}
+
+.sec-title {
+    background: linear-gradient(180deg, rgba(40, 70, 255, 1), rgba(38, 139, 255, 1), rgba(43, 202, 255, 1));
+    border-radius: 5px;
+    color: white;
+    font-size: 15pt;
+
+}
+
+.text {
+    background: #fffede;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/********* COMMENTS **************/
+.owned_comment {
+    display: block;
+    border-radius: 10px;
+    color: white;
+    background-color: #559cff;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    min-width: 200px;
+    width: 50%;
+}
+
+.normal_comment {
+    display: block;
+    border-radius: 10px;
+    background-color: #74ff65;
+    color: white;
+    float: left;
+    min-width: 200px;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+/* This is used for when the screen is less than 990 px, where the posts change position */
+@media screen and (max-width: 990px) {
+    
+}
+
